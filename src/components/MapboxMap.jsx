@@ -19,8 +19,8 @@ export const MapboxMap = ({ accessToken, coordinates, imageIds, viewerRef }) => 
       style: 'mapbox://styles/mapbox/standard',
       center: coordinates[17],
       zoom: 18,
-      bearing: -190,
-      pitch: 80,
+      bearing: -170,
+      pitch: 70,
     });
 
     mapRef.current = map;
