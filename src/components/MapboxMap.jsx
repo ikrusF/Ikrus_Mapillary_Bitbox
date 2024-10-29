@@ -20,7 +20,7 @@ export const MapboxMap = ({ accessToken, coordinates, imageIds, viewerRef }) => 
       center: coordinates[17],
       zoom: 18,
       bearing: -160,
-      pitch: 60,
+      pitch: 50,
     });
 
     mapRef.current = map;
